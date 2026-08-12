@@ -1,0 +1,1 @@
+Versión Tulin Bloodstock verde/crema/dorado con galería de instalaciones. Las fotos de la galería son provisionales y deben reemplazarse por fotos reales de Tulin Bloodstock.
