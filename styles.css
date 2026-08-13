@@ -21,3 +21,4 @@
 footer{background:#0a2419;color:#cbd7cf;display:flex;justify-content:space-between;align-items:center;padding:35px 6%;font-size:11px}
 @media(max-width:1000px){.nav nav{display:none}.hero{grid-template-columns:1fr}.hero-photo{min-height:400px}.grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.g.wide{grid-column:span 2}.about{grid-template-columns:1fr}}
 @media(max-width:600px){.grid,.gallery{grid-template-columns:1fr}.g.wide{grid-column:auto}.hero-copy{padding:80px 8%}.about-copy{padding:65px 8%}footer{display:block;text-align:center}}
+.card > h2{font-size:20px;margin:0 0 8px;color:var(--ink)}
