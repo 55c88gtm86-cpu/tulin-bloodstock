@@ -23,3 +23,73 @@ footer{background:#0a2419;color:#cbd7cf;display:flex;justify-content:space-betwe
 @media(max-width:1000px){.nav nav{display:none}.hero{grid-template-columns:1fr}.hero-photo{min-height:400px}.grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.g.wide{grid-column:span 2}.about{grid-template-columns:1fr}}
 @media(max-width:600px){.grid,.gallery{grid-template-columns:1fr}.g.wide{grid-column:auto}.hero-copy{padding:80px 8%}.about-copy{padding:65px 8%}footer{display:block;text-align:center}}
 .card > h2{font-size:20px;margin:0 0 8px;color:var(--ink)}
+/* FICHAS INDIVIDUALES */
+.statement h1 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 500;
+  color: var(--ink);
+  margin: 10px 0 15px;
+  text-align: center;
+}
+
+.statement p {
+  text-align: center;
+}
+
+.card {
+  max-width: 1050px;
+  margin: 40px auto 80px;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: 48% 52%;
+  gap: 45px;
+  background: #fff;
+}
+
+.card .pic {
+  height: auto;
+  overflow: hidden;
+}
+
+.card .pic img {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.cardbody {
+  padding: 10px 20px;
+}
+
+.cardbody h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  color: var(--ink);
+  margin: 0 0 20px;
+}
+
+.cardbody p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #66736b;
+}
+
+.cardbody hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+@media (max-width: 800px) {
+  .card {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .card .pic img {
+    min-height: 0;
+  }
+}
